@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: telegram-fake-bot
+    env: python
+    buildCommand: ""
+    startCommand: python bot.py
+    envVars:
+      - key: 8247864883:AAHEqKgOyPnvhnz0K4hRJsSgUKdj42STN-M
+        sync: false
